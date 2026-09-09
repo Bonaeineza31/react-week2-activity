@@ -1,4 +1,14 @@
 # react-week2-activity
+## About this project
+
+A simple React + TypeScript app built with Vite. It renders a custom `MyComponent` inside `App.tsx`, displaying a heading and paragraph styled with a dedicated CSS file.
+
+### Run it
+```bash
+npm install
+npm run dev
+```
+Then open the URL shown in your terminal (usually `http://localhost:5173/`).
 
 ## Notes
 
