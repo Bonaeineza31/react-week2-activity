@@ -11,8 +11,7 @@ npm run dev
 Then open the URL shown in your terminal (usually `http://localhost:5173/`).
 
 ## Notes
-
-You may notice a TypeScript warning: `'React' is declared but its value is never read.` This is expected the project uses Vite's modern JSX transform, which doesn't require importing `React` directly to use JSX. The import was kept to match the readme it does not cause any build or runtime errors.
+The project originally included `import React from 'react';` in `App.tsx` matching the activity instructions. However, Vite's strict TypeScript config (`noUnusedLocals`) treats unused imports as build errors, since modern JSX doesn't require importing `React` directly. The unused import was removed from the file to allow `npm run build` to succeed
 
 ### Guided Learning Activity: Creating Your First React App with TypeScript and Vite
 
