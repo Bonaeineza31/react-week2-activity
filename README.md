@@ -1,5 +1,9 @@
 # react-week2-activity
 
+## Notes
+
+You may notice a TypeScript warning: `'React' is declared but its value is never read.` This is expected the project uses Vite's modern JSX transform, which doesn't require importing `React` directly to use JSX. The import was kept to match the readme it does not cause any build or runtime errors.
+
 ### Guided Learning Activity: Creating Your First React App with TypeScript and Vite
 
 **Goal:** Build a simple React app that displays a heading and a paragraph of text using a custom component, styled with CSS.
