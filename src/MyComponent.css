@@ -1,3 +1,4 @@
+/*Styles for MyComponent */
 .my-component {
   background-color: lightblue;
   padding: 20px;
@@ -5,7 +6,7 @@
   border-radius: 5px;
   text-align: center;
 }
-
+/* Additional styles for headings and paragraphs within MyComponent */
 .my-component h1 {
   color: navy;
 }
